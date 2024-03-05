@@ -6,6 +6,7 @@ spring:
   # Spring Cloud Config Server Repository
   cloud:
     config:
+      label: main
       server:
         git:
           uri: https://github.com/alarcon-osorio/SpringCloudParams
